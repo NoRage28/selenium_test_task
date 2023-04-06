@@ -9,7 +9,24 @@
 * The code should be written in Python 3+
 
 
-To do this you just need to use next command in your Terminal:
+To do this you just need to use next commands in your Terminal:
+* Create and activate virtual environment:
+
+`python -m venv env`
+
+On Windows:
+
+`env\Scripts\activate`
+
+On Linux:
+
+`source env/bin/activate`
+
+* Install packages from requirement.txt:
+
+`python pip install -r requirements.txt`
+
+* Run `main.py` file from the terminal:
 
 ` python main.py`
 
